@@ -44,7 +44,7 @@
 }
 #pragma mark 懒加载dataSource
 -(NSMutableArray *)dataSource{
-    return (NSMutableArray *)@[@"推流直播",@"拉流直播"];
+    return (NSMutableArray *)@[@"推流拉流直播",@"弹幕"];
 }
 
 #pragma  mark <UITableViewDelegate, UITableViewDataSource>
@@ -62,13 +62,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
-        case 0://推流直播
+        case 0://推流拉流直播
         {
             TZPushLiveVC *psVC = [[TZPushLiveVC alloc]init];
             [self.navigationController presentViewController:psVC animated:YES completion:nil];
         }
             break;
-        case 1://拉流直播
+        case 1://弹幕
         {
             TZPullLiveVC *plVC = [[TZPullLiveVC alloc]init];
             [self.navigationController presentViewController:plVC animated:YES completion:nil];

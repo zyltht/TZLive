@@ -15,7 +15,6 @@
 		186C9B7D1E51BA51000F4CEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186C9B7C1E51BA51000F4CEC /* Assets.xcassets */; };
 		186C9B801E51BA51000F4CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186C9B7E1E51BA51000F4CEC /* LaunchScreen.storyboard */; };
 		186C9B8B1E51BA51000F4CEC /* TZLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 186C9B8A1E51BA51000F4CEC /* TZLiveTests.m */; };
-		18811E281E53F6A4003B7B28 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18811E271E53F6A4003B7B28 /* IJKMediaFramework.framework */; };
 		18811E2E1E53F77F003B7B28 /* TZPushLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18811E2C1E53F77F003B7B28 /* TZPushLiveVC.m */; };
 		18811E2F1E53F77F003B7B28 /* TZPushLiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18811E2D1E53F77F003B7B28 /* TZPushLiveVC.xib */; };
 		18811E331E53F791003B7B28 /* TZPullLiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18811E311E53F791003B7B28 /* TZPullLiveVC.m */; };
@@ -247,6 +246,22 @@
 		18BCA3D71E52A1C600DF1475 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCA3D61E52A1C600DF1475 /* CoreGraphics.framework */; };
 		18BCA3D91E52A1CE00DF1475 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCA3D81E52A1CE00DF1475 /* UIKit.framework */; };
 		18BCA3DB1E52A1D600DF1475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCA3DA1E52A1D600DF1475 /* Foundation.framework */; };
+		18F695BD1E5D81B0003818C3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F695BC1E5D81B0003818C3 /* IJKMediaFramework.framework */; };
+		18F695E21E5D81C3003818C3 /* BarrageCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695C11E5D81C3003818C3 /* BarrageCanvas.m */; };
+		18F695E31E5D81C3003818C3 /* BarrageClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695C31E5D81C3003818C3 /* BarrageClock.m */; };
+		18F695E41E5D81C3003818C3 /* BarrageDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695C51E5D81C3003818C3 /* BarrageDescriptor.m */; };
+		18F695E51E5D81C3003818C3 /* BarrageDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695C71E5D81C3003818C3 /* BarrageDispatcher.m */; };
+		18F695E61E5D81C3003818C3 /* BarrageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695C91E5D81C3003818C3 /* BarrageRenderer.m */; };
+		18F695E71E5D81C3003818C3 /* BarrageSpriteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695CB1E5D81C3003818C3 /* BarrageSpriteFactory.m */; };
+		18F695E81E5D81C3003818C3 /* BarrageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695CF1E5D81C3003818C3 /* BarrageLoader.m */; };
+		18F695E91E5D81C3003818C3 /* BarrageFloatImageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695D21E5D81C3003818C3 /* BarrageFloatImageSprite.m */; };
+		18F695EA1E5D81C3003818C3 /* BarrageFloatSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695D41E5D81C3003818C3 /* BarrageFloatSprite.m */; };
+		18F695EB1E5D81C3003818C3 /* BarrageFloatTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695D61E5D81C3003818C3 /* BarrageFloatTextSprite.m */; };
+		18F695EC1E5D81C3003818C3 /* BarrageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695D81E5D81C3003818C3 /* BarrageSprite.m */; };
+		18F695ED1E5D81C3003818C3 /* BarrageSpriteUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695DB1E5D81C3003818C3 /* BarrageSpriteUtility.m */; };
+		18F695EE1E5D81C3003818C3 /* BarrageWalkImageSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695DD1E5D81C3003818C3 /* BarrageWalkImageSprite.m */; };
+		18F695EF1E5D81C3003818C3 /* BarrageWalkSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695DF1E5D81C3003818C3 /* BarrageWalkSprite.m */; };
+		18F695F01E5D81C3003818C3 /* BarrageWalkTextSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F695E11E5D81C3003818C3 /* BarrageWalkTextSprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,7 +291,6 @@
 		186C9B861E51BA51000F4CEC /* TZLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TZLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		186C9B8A1E51BA51000F4CEC /* TZLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZLiveTests.m; sourceTree = "<group>"; };
 		186C9B8C1E51BA51000F4CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18811E271E53F6A4003B7B28 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		18811E2B1E53F77F003B7B28 /* TZPushLiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPushLiveVC.h; sourceTree = "<group>"; };
 		18811E2C1E53F77F003B7B28 /* TZPushLiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPushLiveVC.m; sourceTree = "<group>"; };
 		18811E2D1E53F77F003B7B28 /* TZPushLiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZPushLiveVC.xib; sourceTree = "<group>"; };
@@ -736,6 +750,39 @@
 		18BCA3D61E52A1C600DF1475 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		18BCA3D81E52A1CE00DF1475 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18BCA3DA1E52A1D600DF1475 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18F695BC1E5D81B0003818C3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		18F695C01E5D81C3003818C3 /* BarrageCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageCanvas.h; sourceTree = "<group>"; };
+		18F695C11E5D81C3003818C3 /* BarrageCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageCanvas.m; sourceTree = "<group>"; };
+		18F695C21E5D81C3003818C3 /* BarrageClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageClock.h; sourceTree = "<group>"; };
+		18F695C31E5D81C3003818C3 /* BarrageClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageClock.m; sourceTree = "<group>"; };
+		18F695C41E5D81C3003818C3 /* BarrageDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageDescriptor.h; sourceTree = "<group>"; };
+		18F695C51E5D81C3003818C3 /* BarrageDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageDescriptor.m; sourceTree = "<group>"; };
+		18F695C61E5D81C3003818C3 /* BarrageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageDispatcher.h; sourceTree = "<group>"; };
+		18F695C71E5D81C3003818C3 /* BarrageDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageDispatcher.m; sourceTree = "<group>"; };
+		18F695C81E5D81C3003818C3 /* BarrageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageRenderer.h; sourceTree = "<group>"; };
+		18F695C91E5D81C3003818C3 /* BarrageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageRenderer.m; sourceTree = "<group>"; };
+		18F695CA1E5D81C3003818C3 /* BarrageSpriteFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteFactory.h; sourceTree = "<group>"; };
+		18F695CB1E5D81C3003818C3 /* BarrageSpriteFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageSpriteFactory.m; sourceTree = "<group>"; };
+		18F695CC1E5D81C3003818C3 /* BarrageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageHeader.h; sourceTree = "<group>"; };
+		18F695CE1E5D81C3003818C3 /* BarrageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageLoader.h; sourceTree = "<group>"; };
+		18F695CF1E5D81C3003818C3 /* BarrageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageLoader.m; sourceTree = "<group>"; };
+		18F695D11E5D81C3003818C3 /* BarrageFloatImageSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageFloatImageSprite.h; sourceTree = "<group>"; };
+		18F695D21E5D81C3003818C3 /* BarrageFloatImageSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatImageSprite.m; sourceTree = "<group>"; };
+		18F695D31E5D81C3003818C3 /* BarrageFloatSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageFloatSprite.h; sourceTree = "<group>"; };
+		18F695D41E5D81C3003818C3 /* BarrageFloatSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatSprite.m; sourceTree = "<group>"; };
+		18F695D51E5D81C3003818C3 /* BarrageFloatTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageFloatTextSprite.h; sourceTree = "<group>"; };
+		18F695D61E5D81C3003818C3 /* BarrageFloatTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageFloatTextSprite.m; sourceTree = "<group>"; };
+		18F695D71E5D81C3003818C3 /* BarrageSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageSprite.h; sourceTree = "<group>"; };
+		18F695D81E5D81C3003818C3 /* BarrageSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageSprite.m; sourceTree = "<group>"; };
+		18F695D91E5D81C3003818C3 /* BarrageSpriteProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteProtocol.h; sourceTree = "<group>"; };
+		18F695DA1E5D81C3003818C3 /* BarrageSpriteUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageSpriteUtility.h; sourceTree = "<group>"; };
+		18F695DB1E5D81C3003818C3 /* BarrageSpriteUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageSpriteUtility.m; sourceTree = "<group>"; };
+		18F695DC1E5D81C3003818C3 /* BarrageWalkImageSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageWalkImageSprite.h; sourceTree = "<group>"; };
+		18F695DD1E5D81C3003818C3 /* BarrageWalkImageSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkImageSprite.m; sourceTree = "<group>"; };
+		18F695DE1E5D81C3003818C3 /* BarrageWalkSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageWalkSprite.h; sourceTree = "<group>"; };
+		18F695DF1E5D81C3003818C3 /* BarrageWalkSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkSprite.m; sourceTree = "<group>"; };
+		18F695E01E5D81C3003818C3 /* BarrageWalkTextSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageWalkTextSprite.h; sourceTree = "<group>"; };
+		18F695E11E5D81C3003818C3 /* BarrageWalkTextSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageWalkTextSprite.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -743,6 +790,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F695BD1E5D81B0003818C3 /* IJKMediaFramework.framework in Frameworks */,
 				188120AD1E53F95A003B7B28 /* libstdc++.tbd in Frameworks */,
 				188120AB1E53F951003B7B28 /* libz.tbd in Frameworks */,
 				188120A91E53F949003B7B28 /* AudioToolbox.framework in Frameworks */,
@@ -753,7 +801,6 @@
 				18BCA3D51E52A1BC00DF1475 /* CoreMedia.framework in Frameworks */,
 				18BCA3D31E52A1B200DF1475 /* CoreVideo.framework in Frameworks */,
 				18BCA3D11E52A1A900DF1475 /* OpenGLES.framework in Frameworks */,
-				18811E281E53F6A4003B7B28 /* IJKMediaFramework.framework in Frameworks */,
 				18BCA3CF1E52A1A100DF1475 /* AVFoundation.framework in Frameworks */,
 				18BCA3CD1E52A11800DF1475 /* QuartzCore.framework in Frameworks */,
 			);
@@ -772,7 +819,7 @@
 		18427BA61E52C7F800003371 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18811E271E53F6A4003B7B28 /* IJKMediaFramework.framework */,
+				18F695BC1E5D81B0003818C3 /* IJKMediaFramework.framework */,
 				18BCA3DA1E52A1D600DF1475 /* Foundation.framework */,
 				18BCA3D81E52A1CE00DF1475 /* UIKit.framework */,
 				18BCA3D61E52A1C600DF1475 /* CoreGraphics.framework */,
@@ -875,6 +922,7 @@
 		18811E351E53F8BE003B7B28 /* 3th-raty */ = {
 			isa = PBXGroup;
 			children = (
+				18F695BE1E5D81C3003818C3 /* BarrageRenderer */,
 				188120AE1E541025003B7B28 /* IQKeyboardManager */,
 				18811E361E53F8C9003B7B28 /* LFLiveKit */,
 			);
@@ -1499,6 +1547,69 @@
 			name = TZLiveApp;
 			sourceTree = "<group>";
 		};
+		18F695BE1E5D81C3003818C3 /* BarrageRenderer */ = {
+			isa = PBXGroup;
+			children = (
+				18F695BF1E5D81C3003818C3 /* BarrageEngine */,
+				18F695CC1E5D81C3003818C3 /* BarrageHeader.h */,
+				18F695CD1E5D81C3003818C3 /* BarrageLoader */,
+				18F695D01E5D81C3003818C3 /* BarrageSprite */,
+			);
+			path = BarrageRenderer;
+			sourceTree = "<group>";
+		};
+		18F695BF1E5D81C3003818C3 /* BarrageEngine */ = {
+			isa = PBXGroup;
+			children = (
+				18F695C01E5D81C3003818C3 /* BarrageCanvas.h */,
+				18F695C11E5D81C3003818C3 /* BarrageCanvas.m */,
+				18F695C21E5D81C3003818C3 /* BarrageClock.h */,
+				18F695C31E5D81C3003818C3 /* BarrageClock.m */,
+				18F695C41E5D81C3003818C3 /* BarrageDescriptor.h */,
+				18F695C51E5D81C3003818C3 /* BarrageDescriptor.m */,
+				18F695C61E5D81C3003818C3 /* BarrageDispatcher.h */,
+				18F695C71E5D81C3003818C3 /* BarrageDispatcher.m */,
+				18F695C81E5D81C3003818C3 /* BarrageRenderer.h */,
+				18F695C91E5D81C3003818C3 /* BarrageRenderer.m */,
+				18F695CA1E5D81C3003818C3 /* BarrageSpriteFactory.h */,
+				18F695CB1E5D81C3003818C3 /* BarrageSpriteFactory.m */,
+			);
+			path = BarrageEngine;
+			sourceTree = "<group>";
+		};
+		18F695CD1E5D81C3003818C3 /* BarrageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				18F695CE1E5D81C3003818C3 /* BarrageLoader.h */,
+				18F695CF1E5D81C3003818C3 /* BarrageLoader.m */,
+			);
+			path = BarrageLoader;
+			sourceTree = "<group>";
+		};
+		18F695D01E5D81C3003818C3 /* BarrageSprite */ = {
+			isa = PBXGroup;
+			children = (
+				18F695D11E5D81C3003818C3 /* BarrageFloatImageSprite.h */,
+				18F695D21E5D81C3003818C3 /* BarrageFloatImageSprite.m */,
+				18F695D31E5D81C3003818C3 /* BarrageFloatSprite.h */,
+				18F695D41E5D81C3003818C3 /* BarrageFloatSprite.m */,
+				18F695D51E5D81C3003818C3 /* BarrageFloatTextSprite.h */,
+				18F695D61E5D81C3003818C3 /* BarrageFloatTextSprite.m */,
+				18F695D71E5D81C3003818C3 /* BarrageSprite.h */,
+				18F695D81E5D81C3003818C3 /* BarrageSprite.m */,
+				18F695D91E5D81C3003818C3 /* BarrageSpriteProtocol.h */,
+				18F695DA1E5D81C3003818C3 /* BarrageSpriteUtility.h */,
+				18F695DB1E5D81C3003818C3 /* BarrageSpriteUtility.m */,
+				18F695DC1E5D81C3003818C3 /* BarrageWalkImageSprite.h */,
+				18F695DD1E5D81C3003818C3 /* BarrageWalkImageSprite.m */,
+				18F695DE1E5D81C3003818C3 /* BarrageWalkSprite.h */,
+				18F695DF1E5D81C3003818C3 /* BarrageWalkSprite.m */,
+				18F695E01E5D81C3003818C3 /* BarrageWalkTextSprite.h */,
+				18F695E11E5D81C3003818C3 /* BarrageWalkTextSprite.m */,
+			);
+			path = BarrageSprite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1606,6 +1717,8 @@
 				188120D51E541025003B7B28 /* IQUITextFieldView+Additions.m in Sources */,
 				188120441E53F8CA003B7B28 /* GPUImageLineGenerator.m in Sources */,
 				188120871E53F8CA003B7B28 /* GPUImageThresholdedNonMaximumSuppressionFilter.m in Sources */,
+				18F695E21E5D81C3003818C3 /* BarrageCanvas.m in Sources */,
+				18F695E71E5D81C3003818C3 /* BarrageSpriteFactory.m in Sources */,
 				188120081E53F8CA003B7B28 /* GPUImageColorConversion.m in Sources */,
 				1881203A1E53F8CA003B7B28 /* GPUImageHueFilter.m in Sources */,
 				188120331E53F8CA003B7B28 /* GPUImageHighPassFilter.m in Sources */,
@@ -1626,6 +1739,7 @@
 				18811FFB1E53F8CA003B7B28 /* GPUImageAverageLuminanceThresholdFilter.m in Sources */,
 				188120DE1E541025003B7B28 /* IQTitleBarButtonItem.m in Sources */,
 				188120201E53F8CA003B7B28 /* GPUImageFASTCornerDetectionFilter.m in Sources */,
+				18F695E41E5D81C3003818C3 /* BarrageDescriptor.m in Sources */,
 				188120091E53F8CA003B7B28 /* GPUImageColorDodgeBlendFilter.m in Sources */,
 				18811E2E1E53F77F003B7B28 /* TZPushLiveVC.m in Sources */,
 				188120491E53F8CA003B7B28 /* GPUImageLuminanceThresholdFilter.m in Sources */,
@@ -1648,6 +1762,7 @@
 				188120171E53F8CA003B7B28 /* GPUImageDirectionalNonMaximumSuppressionFilter.m in Sources */,
 				1881204A1E53F8CA003B7B28 /* GPUImageLuminosity.m in Sources */,
 				1881206D1E53F8CA003B7B28 /* GPUImageRGBOpeningFilter.m in Sources */,
+				18F695EE1E5D81C3003818C3 /* BarrageWalkImageSprite.m in Sources */,
 				188120571E53F8CA003B7B28 /* GPUImageNonMaximumSuppressionFilter.m in Sources */,
 				188120551E53F8CA003B7B28 /* GPUImageMultiplyBlendFilter.m in Sources */,
 				1881207D1E53F8CA003B7B28 /* GPUImageSourceOverBlendFilter.m in Sources */,
@@ -1674,6 +1789,7 @@
 				18811FE21E53F8CA003B7B28 /* LFVideoEncoder.m in Sources */,
 				18811FE71E53F8CA003B7B28 /* LFLiveVideoConfiguration.m in Sources */,
 				188120881E53F8CA003B7B28 /* GPUImageThresholdSketchFilter.m in Sources */,
+				18F695E51E5D81C3003818C3 /* BarrageDispatcher.m in Sources */,
 				188120891E53F8CA003B7B28 /* GPUImageTiltShiftFilter.m in Sources */,
 				1881201C1E53F8CA003B7B28 /* GPUImageErosionFilter.m in Sources */,
 				1881202F1E53F8CA003B7B28 /* GPUImageHarrisCornerDetectionFilter.m in Sources */,
@@ -1690,6 +1806,7 @@
 				188120191E53F8CA003B7B28 /* GPUImageDissolveBlendFilter.m in Sources */,
 				1881200D1E53F8CA003B7B28 /* GPUImageColorPackingFilter.m in Sources */,
 				1881206C1E53F8CA003B7B28 /* GPUImageRGBFilter.m in Sources */,
+				18F695EA1E5D81C3003818C3 /* BarrageFloatSprite.m in Sources */,
 				18811FEF1E53F8CA003B7B28 /* LFVideoFrame.m in Sources */,
 				1881203C1E53F8CA003B7B28 /* GPUImageJFAVoronoiFilter.m in Sources */,
 				186C9B781E51BA51000F4CEC /* ViewController.m in Sources */,
@@ -1720,12 +1837,15 @@
 				188120741E53F8CA003B7B28 /* GPUImageSingleComponentGaussianBlurFilter.m in Sources */,
 				1881208B1E53F8CA003B7B28 /* GPUImageToonFilter.m in Sources */,
 				1881201E1E53F8CA003B7B28 /* GPUImageExposureFilter.m in Sources */,
+				18F695F01E5D81C3003818C3 /* BarrageWalkTextSprite.m in Sources */,
 				188120781E53F8CA003B7B28 /* GPUImageSobelEdgeDetectionFilter.m in Sources */,
+				18F695EF1E5D81C3003818C3 /* BarrageWalkSprite.m in Sources */,
 				18811FE41E53F8CA003B7B28 /* LFHardwareAudioEncoder.m in Sources */,
 				1881207F1E53F8CA003B7B28 /* GPUImageStillCamera.m in Sources */,
 				188120391E53F8CA003B7B28 /* GPUImageHueBlendFilter.m in Sources */,
 				188120381E53F8CA003B7B28 /* GPUImageHSBFilter.m in Sources */,
 				18811FF51E53F8CA003B7B28 /* GPUImage3x3TextureSamplingFilter.m in Sources */,
+				18F695ED1E5D81C3003818C3 /* BarrageSpriteUtility.m in Sources */,
 				1881205F1E53F8CA003B7B28 /* GPUImagePinchDistortionFilter.m in Sources */,
 				188120D91E541025003B7B28 /* IQKeyboardManager.m in Sources */,
 				188120411E53F8CA003B7B28 /* GPUImageLevelsFilter.m in Sources */,
@@ -1742,10 +1862,14 @@
 				18811FF21E53F8CA003B7B28 /* NSMutableArray+LFAdd.m in Sources */,
 				188120DC1E541025003B7B28 /* IQBarButtonItem.m in Sources */,
 				188120821E53F8CA003B7B28 /* GPUImageSwirlFilter.m in Sources */,
+				18F695E61E5D81C3003818C3 /* BarrageRenderer.m in Sources */,
+				18F695E91E5D81C3003818C3 /* BarrageFloatImageSprite.m in Sources */,
 				18811FE51E53F8CA003B7B28 /* LFHardwareVideoEncoder.m in Sources */,
 				188120311E53F8CA003B7B28 /* GPUImageHighlightShadowFilter.m in Sources */,
 				188120021E53F8CA003B7B28 /* GPUImageCGAColorspaceFilter.m in Sources */,
+				18F695E31E5D81C3003818C3 /* BarrageClock.m in Sources */,
 				188120681E53F8CA003B7B28 /* GPUImageRawDataOutput.m in Sources */,
+				18F695EB1E5D81C3003818C3 /* BarrageFloatTextSprite.m in Sources */,
 				18811FED1E53F8CA003B7B28 /* LFLiveDebug.m in Sources */,
 				18811FF81E53F8CA003B7B28 /* GPUImageAlphaBlendFilter.m in Sources */,
 				188120061E53F8CA003B7B28 /* GPUImageColorBlendFilter.m in Sources */,
@@ -1765,6 +1889,7 @@
 				188120051E53F8CA003B7B28 /* GPUImageClosingFilter.m in Sources */,
 				18811FEB1E53F8CA003B7B28 /* LFAudioFrame.m in Sources */,
 				188120431E53F8CA003B7B28 /* GPUImageLinearBurnBlendFilter.m in Sources */,
+				18F695E81E5D81C3003818C3 /* BarrageLoader.m in Sources */,
 				186C9B721E51BA51000F4CEC /* main.m in Sources */,
 				188120851E53F8CA003B7B28 /* GPUImageThreeInputFilter.m in Sources */,
 				188120261E53F8CA003B7B28 /* GPUImageFramebufferCache.m in Sources */,
@@ -1800,6 +1925,7 @@
 				1881201D1E53F8CA003B7B28 /* GPUImageExclusionBlendFilter.m in Sources */,
 				188120111E53F8CA003B7B28 /* GPUImageCropFilter.m in Sources */,
 				1881203F1E53F8CA003B7B28 /* GPUImageLanczosResamplingFilter.m in Sources */,
+				18F695EC1E5D81C3003818C3 /* BarrageSprite.m in Sources */,
 				188120761E53F8CA003B7B28 /* GPUImageSkinToneFilter.m in Sources */,
 				18811FF01E53F8CA003B7B28 /* LFStreamingBuffer.m in Sources */,
 				188120841E53F8CA003B7B28 /* GPUImageTextureOutput.m in Sources */,
