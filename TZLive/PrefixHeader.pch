@@ -1,0 +1,38 @@
+//
+//  PrefixHeader.pch
+//  TZLive
+//
+//  Created by Xin Chen on 17/2/14.
+//  Copyright © 2017年 重庆香樟树. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __OBJC__
+
+
+#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "LFLiveKit.h"
+#import "IQKeyboardManager.h"
+
+//字体
+#define TZFont(size)                       [UIFont systemFontOfSize:(size)]
+#define TZBoldFont(size)                   [UIFont boldSystemFontOfSize:(size)]
+//屏幕宽高
+#define TZ_Screen_Height      [[UIScreen mainScreen] bounds].size.height
+#define TZ_Screen_Width       [[UIScreen mainScreen] bounds].size.width
+//颜色
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)(((rgbValue) & 0xFF0000) >> 16))/255.0 green:((float)(((rgbValue) & 0xFF00) >> 8))/255.0 blue:((float)((rgbValue) & 0xFF))/255.0 alpha:1.0]
+//#define COLOR_MAIN          HexRGB(0x4E2950)
+
+
+
+#endif
+
+
+#endif /* PrefixHeader_pch */
